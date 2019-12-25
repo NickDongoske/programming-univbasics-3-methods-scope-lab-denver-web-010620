@@ -1,4 +1,4 @@
-phrase1 = "Do A Barrel Roll!\n"
+# phrase1 = "Do A Barrel Roll!\n"
 
 def mario
   phrase = "It's-a me, Mario!"
@@ -15,6 +15,7 @@ def link
   puts phrase
 end
 
-def any_phrase(phrase1)
-  puts phrase1
+def any_phrase(phrase)
+  phrase = "Do A Barrel Roll!\n"
+  puts '#{phrase}'
 end
